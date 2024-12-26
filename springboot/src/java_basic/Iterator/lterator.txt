@@ -1,0 +1,31 @@
+lterator:
+    Collection:
+        # 无序不重复
+        Set:
+            # 无序
+            HashSet:
+                # 保持顺序
+                LinkedHashSet:
+            # 需要排序
+            TreeSet:
+        # 有序可重复，有索引
+        List:
+            # 查，改
+            ArrayList:
+            # 增，删
+            LinkedList:
+    Map:
+        # 无序
+        HashMap:
+            # 保持顺序
+            LinkedHashMap:
+        # 排序
+        TreeMap:
+
+set中需要排序的不能加入null
+
+hashmap 中的红黑树
+load factor：默认为0.75， =元素个数/数组长度
+数组(初始容量为16,超过负载因子会进行扩容)
+链表(对应数组中某个元素，因为极端情况下所有添加的元素都会在数组中的一个索引中)
+红黑树(当链表长度大于8 并且数组长度大于64时，链表会转化为红黑树)
