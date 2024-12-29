@@ -1,4 +1,4 @@
-package java_basic.finishExample.oop.abstractClass;
+package java_basic.FinishExample.oop.abstractClass;
 
 class Circle extends Shape {
     private double radius;

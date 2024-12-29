@@ -1,4 +1,4 @@
-package java_basic.finishExample.oop.extend;
+package java_basic.FinishExample.oop.extend;
 
 public class Child extends Parent {
     public Child() {

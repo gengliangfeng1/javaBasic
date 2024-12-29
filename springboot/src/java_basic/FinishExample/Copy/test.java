@@ -1,4 +1,4 @@
-package java_basic.finishExample.Copy;
+package java_basic.FinishExample.Copy;
 
 public class test {
     public static void main(String[] args) throws CloneNotSupportedException {

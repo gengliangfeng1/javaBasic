@@ -1,4 +1,4 @@
-package java_basic.finishExample.Copy;
+package java_basic.FinishExample.Copy;
 
 
 class Address implements Cloneable{

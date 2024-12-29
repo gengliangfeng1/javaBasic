@@ -1,4 +1,4 @@
-package java_basic.finishExample.oop.extend;
+package java_basic.FinishExample.oop.extend;
 
 public class Test {
     public static void main(String[] args) {

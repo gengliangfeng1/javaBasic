@@ -1,4 +1,4 @@
-package java_basic.finishExample.Serializable;
+package java_basic.FinishExample.Serializable;
 
 import java.io.*;
 
