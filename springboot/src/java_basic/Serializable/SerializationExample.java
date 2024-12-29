@@ -29,7 +29,7 @@ public class SerializationExample {
             ObjectInputStream in = new ObjectInputStream(fileIn);
             // 从文件中反序列化出Person对象
             Person person1 = (Person) in.readObject();
-            // 关闭流，释放资源
+            // close stream release resource
             in.close();
             fileIn.close();
             System.out.println("从文件中反序列化得到的Person对象：");
@@ -37,6 +37,18 @@ public class SerializationExample {
             System.out.println("年龄: " + person1.getAge());
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
+        }
+
+
+        File file = new File("person.ser");
+        if(file.exists()){
+            if(file.delete()){
+                System.out.println("file delete successfully");
+            }else{
+                System.out.println("file delete failed");
+            }
+        }else{
+            System.out.println("file not exists");
         }
     }
 }

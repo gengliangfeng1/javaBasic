@@ -1,4 +1,4 @@
-package java_basic.oop.abstractClass;
+package java_basic.finishExample.oop.abstractClass;
 
 class Rectangle extends Shape {
     private double width;
