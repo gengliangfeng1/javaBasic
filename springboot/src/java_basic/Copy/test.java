@@ -1,6 +1,4 @@
-package java_basic.ShallowCopy;
-
-import jdk.nashorn.internal.parser.JSONParser;
+package java_basic.Copy;
 
 public class test {
     public static void main(String[] args) throws CloneNotSupportedException {

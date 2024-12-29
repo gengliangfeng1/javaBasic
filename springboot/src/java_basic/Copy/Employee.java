@@ -1,4 +1,4 @@
-package java_basic.ShallowCopy;
+package java_basic.Copy;
 
 class Employee implements Cloneable{
     String name;
@@ -38,7 +38,9 @@ class Employee implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-
-        return super.clone();
+        // Perform a deep copy
+        Employee cloned = (Employee) super.clone();
+        cloned.address = (Address) address.clone(); // Deep copy the address
+        return cloned;
     }
 }

@@ -1,4 +1,4 @@
-package java_basic.ShallowCopy;
+package java_basic.Copy;
 
 
 class Address implements Cloneable{
